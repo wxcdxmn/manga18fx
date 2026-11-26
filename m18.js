@@ -226,7 +226,7 @@ class Manga18fx extends ComicSource {
 
   explore = [
     {
-      title: "最近更新",
+      title: "MANGA18FX · 最近更新",
       type: "singlePageWithMultiPart",
       load: async () => {
         const html = await this.fetch(this.site + "/");
@@ -236,7 +236,7 @@ class Manga18fx extends ComicSource {
       },
     },
     {
-      title: "热度榜",
+      title: "MANGA18FX · 热度榜",
       type: "singlePageWithMultiPart",
       load: async () => {
         const html = await this.fetch(this.site + "/hot-manga");
